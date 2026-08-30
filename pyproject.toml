@@ -1,6 +1,6 @@
 [project]
-name = "hf2ollama"
-version = "0.1.0"
+name = "hf2ollama-python-cli-tool"
+version = "1.0.0"
 description = "Search, download, and import HuggingFace GGUF models into Ollama"
 readme = "README.md"
 license = "MIT"
