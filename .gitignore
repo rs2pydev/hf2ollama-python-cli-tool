@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Model files (large binaries)
+*.gguf
+/Modelfile
+
+# Development context
+.claude/
+CLAUDE.md
+Plan.md
+pyrightconfig.json
+linkedin-post.md
+
+# Root-level PowerShell working copies
+/ConvertToOllama.ps1
+/HfDownload.ps1
+/ollama-pull.ps1
+/DownloadAndImport.ps1
